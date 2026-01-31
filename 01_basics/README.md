@@ -1,8 +1,5 @@
-# Basics – Combinational Logic
+### 4:1 Multiplexer
 
-This folder contains basic Verilog RTL designs to revise digital design fundamentals.
+**Simulation Waveform**
 
-Topics covered:
-- Multiplexers
-- Adders
-- Simple combinational blocks
+![4:1 MUX Waveform](../docs/waveforms/mux4to1_waveform.jpg)
