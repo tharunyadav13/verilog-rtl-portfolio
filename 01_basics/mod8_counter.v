@@ -16,7 +16,7 @@ module mod_8(
   output reg Q,
   output wire Q_bar);
 
-  always@(posedge clk or negedge reset)begin 
+  always@(negedge clk or negedge reset)begin 
     if(!reset)begin 
       Q<=1'b0;
     end
