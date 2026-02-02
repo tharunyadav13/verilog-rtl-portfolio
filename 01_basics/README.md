@@ -7,6 +7,6 @@
 
 ### mod_8 counter 
 
-*** simulation waveform 
+***simulation waveform**
 
-docs/waveforms/mod_8_counter_waveform.jpg
+![mod_8 counter](..docs/waveforms/mod_8_counter_waveform.jpg)
