@@ -10,8 +10,6 @@
 `include "test.sv"
 `include "i2c_slave_rw.sv"
 `include "i2c_slave_rw_sva.sv"
-// ❌ DO NOT include i2c_bind.sv now
-// `include "i2c_bind.sv"
 
 module tb_top;
 
