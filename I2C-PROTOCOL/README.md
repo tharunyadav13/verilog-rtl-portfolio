@@ -5,6 +5,12 @@
 This project implements and verifies an I2C Slave design using 
 SystemVerilog verification architecture.
 
+//System Verilog  verification style :
+
+Transaction → Generator → Driver → I2C Bus
+Monitor → Scoreboard → Comparison
+
+
 The verification environment includes:
 - Transaction-based stimulus generation
 - Driver
@@ -46,3 +52,6 @@ with open-drain architecture.
 ---
 
 ## 🏗 Project Architecture
+
+
+
