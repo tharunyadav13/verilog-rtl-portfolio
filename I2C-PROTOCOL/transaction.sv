@@ -10,7 +10,7 @@ class transaction;
   bit addr_ack;
   bit reg_ack;
 
-  constraint c_addr { addr == 7'h50; }
+  constraint c_addr { addr == 7'h67; }
   constraint c_reg  { reg_addr == 8'h20; }
   constraint c_size { write_data.size() == 2; }
   constraint c_rw   { rw == 1'b0; }
