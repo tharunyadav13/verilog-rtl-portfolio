@@ -1,0 +1,903 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+cd {C:\Users\Windows 10 Pro\OneDrive\Desktop\checKblock}
+ls
+# .driver.sv.un~        .tb_tr_check.sv.un~  run.do            tb_tr_check.sv   
+# .generator.sv.un~     driver.sv            run.do~           tb_tr_check.sv~  
+# .run.do.un~           driver.sv~           tb_drv_check.sv   transaction.sv   
+# .tb_drv_check.sv.un~  generator.sv         tb_gen_check.sv   vsim.wlf         
+# .tb_gen_check.sv.un~  generator.sv~        tb_gen_check.sv~  work             
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:41:58 on Feb 25,2026
+# vlog -reportprogress 300 -sv tb_drv_check.sv 
+# ** Error: tb_drv_check.sv(1): Cannot find `include file "interface.sv" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: ** while parsing file included at tb_drv_check.sv(4)
+# ** at driver.sv(86): Illegal declaration after the statement near line '81'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at tb_drv_check.sv(4)
+# ** at driver.sv(100): Illegal declaration after the statement near line '96'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Warning: tb_drv_check.sv(26): (vlog-2244) Variable 'cnt' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error: tb_drv_check.sv(28): Illegal declaration after the statement near line '25'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) tb_drv_check.sv(41): near "end": syntax error, unexpected end.
+# ** Error: tb_drv_check.sv(45): (vlog-13205) Syntax error found in the scope following 'gen'. Is there a missing '::'?
+# End time: 12:41:58 on Feb 25,2026, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog -sv tb_drv_check.sv"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:43:35 on Feb 25,2026
+# vlog -reportprogress 300 -sv tb_drv_check.sv 
+# -- Compiling interface i2c_if
+# ** Error: ** while parsing file included at tb_drv_check.sv(4)
+# ** at driver.sv(86): Illegal declaration after the statement near line '81'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at tb_drv_check.sv(4)
+# ** at driver.sv(100): Illegal declaration after the statement near line '96'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Warning: tb_drv_check.sv(26): (vlog-2244) Variable 'cnt' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error: tb_drv_check.sv(28): Illegal declaration after the statement near line '25'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) tb_drv_check.sv(41): near "end": syntax error, unexpected end.
+# ** Error: tb_drv_check.sv(45): (vlog-13205) Syntax error found in the scope following 'gen'. Is there a missing '::'?
+# End time: 12:43:35 on Feb 25,2026, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog -sv tb_drv_check.sv"
+ls
+# .driver.sv.un~        .tb_tr_check.sv.un~  interface.sv~     tb_tr_check.sv   
+# .generator.sv.un~     driver.sv            run.do            tb_tr_check.sv~  
+# .interface.sv.un~     driver.sv~           run.do~           transaction.sv   
+# .run.do.un~           generator.sv         tb_drv_check.sv   vsim.wlf         
+# .tb_drv_check.sv.un~  generator.sv~        tb_gen_check.sv   work             
+# .tb_gen_check.sv.un~  interface.sv         tb_gen_check.sv~                   
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:45:26 on Feb 25,2026
+# vlog -reportprogress 300 -sv tb_drv_check.sv 
+# -- Compiling interface i2c_if
+# ** Error: ** while parsing file included at tb_drv_check.sv(4)
+# ** at driver.sv(86): Illegal declaration after the statement near line '81'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at tb_drv_check.sv(4)
+# ** at driver.sv(100): Illegal declaration after the statement near line '96'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Warning: tb_drv_check.sv(26): (vlog-2244) Variable 'cnt' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error: tb_drv_check.sv(28): Illegal declaration after the statement near line '25'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) tb_drv_check.sv(41): near "end": syntax error, unexpected end.
+# ** Error: tb_drv_check.sv(45): (vlog-13205) Syntax error found in the scope following 'gen'. Is there a missing '::'?
+# End time: 12:45:26 on Feb 25,2026, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog -sv tb_drv_check.sv"
+ls
+# .driver.sv.un~        .tb_tr_check.sv.un~  interface.sv~     tb_gen_check.sv~  
+# .generator.sv.un~     driver.sv            run.do            tb_tr_check.sv    
+# .interface.sv.un~     driver.sv~           run.do~           tb_tr_check.sv~   
+# .run.do.un~           generator.sv         tb_drv_check.sv   transaction.sv    
+# .tb_drv_check.sv.un~  generator.sv~        tb_drv_check.sv~  vsim.wlf          
+# .tb_gen_check.sv.un~  interface.sv         tb_gen_check.sv   work              
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:49:49 on Feb 25,2026
+# vlog -reportprogress 300 -sv tb_drv_check.sv 
+# -- Compiling interface i2c_if
+# -- Compiling package tb_drv_check_sv_unit
+# -- Compiling module tb_drv_check
+# 
+# Top level modules:
+# 	tb_drv_check
+# End time: 12:49:49 on Feb 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.tb_drv_check 
+# Start time: 12:49:49 on Feb 25,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_drv_check_sv_unit(fast)
+# Loading work.tb_drv_check(fast)
+# Loading work.i2c_if(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# GEN: addr=50 reg=20 data='{97, 109}
+# DRV: No ACK on address
+# DRV: No ACK on reg_addr
+# DRV: No ACK on data idx 0
+# DRV: No ACK on data idx 1
+# ** Note: $finish    : tb_drv_check.sv(57)
+#    Time: 2 us  Iteration: 0  Instance: /tb_drv_check
+# 1
+# Break at tb_drv_check.sv line 57
+cd {C:\Users\Windows 10 Pro\OneDrive\Desktop\checKblock}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+# End time: 13:40:49 on Feb 25,2026, Elapsed time: 0:51:00
+# Errors: 1, Warnings: 0
+cd {C:\Users\Windows 10 Pro\OneDrive\Desktop\checKblock}
+ls
+# .driver.sv.un~        .tb_tr_check.sv.un~  monitor.sv~       tb_tr_check.sv   
+# .generator.sv.un~     driver.sv            run.do            tb_tr_check.sv~  
+# .interface.sv.un~     driver.sv~           run.do~           transaction.sv   
+# .monitor.sv.un~       generator.sv         tb_drv_check.sv   vsim.wlf         
+# .run.do.un~           generator.sv~        tb_drv_check.sv~  work             
+# .tb_drv_check.sv.un~  interface.sv         tb_gen_check.sv                    
+# .tb_gen_check.sv.un~  interface.sv~        tb_gen_check.sv~                   
+# .tb_mon_check.sv.un~  monitor.sv           tb_mon_check.sv                    
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:41:03 on Feb 25,2026
+# vlog -reportprogress 300 -sv tb_mon_check.sv 
+# -- Compiling interface i2c_if
+# -- Compiling package tb_mon_check_sv_unit
+# -- Compiling module tb_mon_check
+# 
+# Top level modules:
+# 	tb_mon_check
+# End time: 13:41:03 on Feb 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.tb_mon_check 
+# Start time: 13:41:03 on Feb 25,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-133) Unable to remove directory "C:/Users/Windows 10 Pro/OneDrive/Desktop/checKblock/work/@_opt".
+# Loading sv_std.std
+# Loading work.tb_mon_check_sv_unit(fast)
+# Loading work.tb_mon_check(fast)
+# Loading work.i2c_if(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# GEN: addr=50 reg=20 data='{97, 109}
+# DRV: No ACK on address
+# DRV: No ACK on reg_addr
+# DRV: No ACK on data idx 0
+# DRV: No ACK on data idx 1
+# MON CAPTURED:
+#   addr     = 0x50  addr_ack=0
+#   rw       = 0
+#   reg_addr = 0x20  reg_ack=0
+#   data     = '{97, 109}
+# ** Note: $finish    : tb_mon_check.sv(75)
+#    Time: 765 ns  Iteration: 0  Instance: /tb_mon_check
+# 1
+# Break at tb_mon_check.sv line 75
+quit -sim
+# End time: 13:49:58 on Feb 25,2026, Elapsed time: 0:08:55
+# Errors: 0, Warnings: 1
+ls
+# .agent.sv.un~           agent.sv~          tb_drv_check.sv   
+# .driver.sv.un~          driver.sv          tb_drv_check.sv~  
+# .generator.sv.un~       driver.sv~         tb_gen_check.sv   
+# .interface.sv.un~       generator.sv       tb_gen_check.sv~  
+# .monitor.sv.un~         generator.sv~      tb_mon_check.sv   
+# .run.do.un~             interface.sv       tb_tr_check.sv    
+# .tb_agent_check.sv.un~  interface.sv~      tb_tr_check.sv~   
+# .tb_drv_check.sv.un~    monitor.sv         transaction.sv    
+# .tb_gen_check.sv.un~    monitor.sv~        vsim.wlf          
+# .tb_mon_check.sv.un~    run.do             work              
+# .tb_tr_check.sv.un~     run.do~                              
+# agent.sv                tb_agent_check.sv                    
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:50:06 on Feb 25,2026
+# vlog -reportprogress 300 -sv tb_agent_check.sv 
+# -- Compiling interface i2c_if
+# -- Compiling package tb_agent_check_sv_unit
+# -- Compiling module tb_agent_check
+# 
+# Top level modules:
+# 	tb_agent_check
+# End time: 13:50:06 on Feb 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.tb_agent_check 
+# Start time: 13:50:06 on Feb 25,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-133) Unable to remove directory "C:/Users/Windows 10 Pro/OneDrive/Desktop/checKblock/work/@_opt1".
+# Loading sv_std.std
+# Loading work.tb_agent_check_sv_unit(fast)
+# Loading work.tb_agent_check(fast)
+# Loading work.i2c_if(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# GEN: addr=50 reg=20 data='{97, 109}
+# DRV: No ACK on address
+# DRV: No ACK on reg_addr
+# DRV: No ACK on data idx 0
+# DRV: No ACK on data idx 1
+# AGENT MON CAPTURED:
+#   addr     = 0x50  addr_ack=0
+#   rw       = 0
+#   reg_addr = 0x20  reg_ack=0
+#   data     = '{97, 109}
+# ** Note: $finish    : tb_agent_check.sv(63)
+#    Time: 765 ns  Iteration: 0  Instance: /tb_agent_check
+# 1
+# Break at tb_agent_check.sv line 63
+quit -sim
+# End time: 13:58:02 on Feb 25,2026, Elapsed time: 0:07:56
+# Errors: 0, Warnings: 1
+ls
+# .agent.sv.un~           agent.sv       scoreboard.sv~     
+# .driver.sv.un~          agent.sv~      tb_agent_check.sv  
+# .generator.sv.un~       driver.sv      tb_drv_check.sv    
+# .interface.sv.un~       driver.sv~     tb_drv_check.sv~   
+# .monitor.sv.un~         generator.sv   tb_gen_check.sv    
+# .run.do.un~             generator.sv~  tb_gen_check.sv~   
+# .scoreboard.sv.un~      interface.sv   tb_mon_check.sv    
+# .tb_agent_check.sv.un~  interface.sv~  tb_scb_check.sv    
+# .tb_drv_check.sv.un~    monitor.sv     tb_tr_check.sv     
+# .tb_gen_check.sv.un~    monitor.sv~    tb_tr_check.sv~    
+# .tb_mon_check.sv.un~    run.do         transaction.sv     
+# .tb_scb_check.sv.un~    run.do~        vsim.wlf           
+# .tb_tr_check.sv.un~     scoreboard.sv  work               
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:00:01 on Feb 25,2026
+# vlog -reportprogress 300 -sv tb_scb_check.sv 
+# -- Compiling interface i2c_if
+# -- Compiling package tb_scb_check_sv_unit
+# -- Compiling module tb_scb_check
+# 
+# Top level modules:
+# 	tb_scb_check
+# End time: 14:00:01 on Feb 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.tb_scb_check 
+# Start time: 14:00:01 on Feb 25,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-133) Unable to remove directory "C:/Users/Windows 10 Pro/OneDrive/Desktop/checKblock/work/@_opt2".
+# Loading sv_std.std
+# Loading work.tb_scb_check_sv_unit(fast)
+# Loading work.tb_scb_check(fast)
+# Loading work.i2c_if(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# GEN: addr=50 reg=20 data='{97, 109}
+# DRV: No ACK on address
+# DRV: No ACK on reg_addr
+# DRV: No ACK on data idx 0
+# DRV: No ACK on data idx 1
+# SCB TB: MON CAPTURED reg=0x20 data='{97, 109}
+# SCB TB: mem[0x20]=0x61
+# SCB TB: mem[0x21]=0x6d
+# ** Note: $finish    : tb_scb_check.sv(90)
+#    Time: 765 ns  Iteration: 0  Instance: /tb_scb_check
+# 1
+# Break at tb_scb_check.sv line 90
+quit -sim
+# End time: 15:40:11 on Feb 25,2026, Elapsed time: 1:40:10
+# Errors: 0, Warnings: 1
+ls 
+# .agent.sv.un~           agent.sv~         tb_agent_check.sv  
+# .driver.sv.un~          driver.sv         tb_drv_check.sv    
+# .generator.sv.un~       driver.sv~        tb_drv_check.sv~   
+# .i2c_coverage.sv.un~    generator.sv      tb_gen_check.sv    
+# .interface.sv.un~       generator.sv~     tb_gen_check.sv~   
+# .monitor.sv.un~         i2c_coverage.sv   tb_mon_check.sv    
+# .run.do.un~             i2c_coverage.sv~  tb_scb_check.sv    
+# .scoreboard.sv.un~      interface.sv      tb_scb_check.sv~   
+# .tb_agent_check.sv.un~  interface.sv~     tb_tr_check.sv     
+# .tb_drv_check.sv.un~    monitor.sv        tb_tr_check.sv~    
+# .tb_gen_check.sv.un~    monitor.sv~       transaction.sv     
+# .tb_mon_check.sv.un~    run.do            vsim.wlf           
+# .tb_scb_check.sv.un~    run.do~           work               
+# .tb_tr_check.sv.un~     scoreboard.sv                        
+# agent.sv                scoreboard.sv~                       
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:40:18 on Feb 25,2026
+# vlog -reportprogress 300 -sv tb_scb_check.sv 
+# -- Compiling interface i2c_if
+# -- Compiling package tb_scb_check_sv_unit
+# -- Compiling module tb_scb_check
+# 
+# Top level modules:
+# 	tb_scb_check
+# End time: 15:40:18 on Feb 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.tb_scb_check 
+# Start time: 15:40:18 on Feb 25,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_scb_check_sv_unit(fast)
+# Loading work.tb_scb_check(fast)
+# Loading work.i2c_if(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# ** Warning: (vsim-3881) i2c_coverage.sv(35): Sign-and-Width conversion applied in bin 'hi_regs' for Coverpoint 'cp_reg'. Value '128' changed to '127 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_scb_check
+# ** Warning: (vsim-3881) i2c_coverage.sv(35): Sign-and-Width conversion applied in bin 'hi_regs' for Coverpoint 'cp_reg'. Value '255' changed to '127 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_scb_check
+# ** Warning: (vsim-8475) The invalid value range [128 : 255] is found in bin 'hi_regs' of Coverpoint 'cp_reg'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /tb_scb_check/#INITIAL#62(#ublk#32604683#62) File: i2c_coverage.sv Line: 35
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'hi_regs' in Coverpoint 'cp_reg' of Covergroup instance '\/tb_scb_check_sv_unit::i2c_coverage::cg_i2c ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_scb_check
+# ** Warning: (vsim-8474) A higher value '255' is found in bin 'ones' of Coverpoint 'cp_first'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /tb_scb_check/#INITIAL#62(#ublk#32604683#62) File: i2c_coverage.sv Line: 50
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'ones' in Coverpoint 'cp_first' of Covergroup instance '\/tb_scb_check_sv_unit::i2c_coverage::cg_i2c ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_scb_check
+# ** Warning: (vsim-8474) A higher value '170' is found in bin 'aa' of Coverpoint 'cp_first'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /tb_scb_check/#INITIAL#62(#ublk#32604683#62) File: i2c_coverage.sv Line: 51
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'aa' in Coverpoint 'cp_first' of Covergroup instance '\/tb_scb_check_sv_unit::i2c_coverage::cg_i2c ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_scb_check
+# GEN: addr=50 reg=20 data='{97, 109}
+# DRV: No ACK on address
+# DRV: No ACK on reg_addr
+# DRV: No ACK on data idx 0
+# DRV: No ACK on data idx 1
+# Coverage = 32.41 %
+# SCB TB: MON CAPTURED reg=0x20 data='{97, 109}
+# SCB TB: mem[0x20]=0x61
+# SCB TB: mem[0x21]=0x6d
+# ** Note: $finish    : tb_scb_check.sv(97)
+#    Time: 765 ns  Iteration: 0  Instance: /tb_scb_check
+# 1
+# Break at tb_scb_check.sv line 97
+quit -sim
+# End time: 15:48:42 on Feb 25,2026, Elapsed time: 0:08:24
+# Errors: 0, Warnings: 8
+ls
+# .agent.sv.un~           agent.sv          scoreboard.sv      
+# .driver.sv.un~          agent.sv~         scoreboard.sv~     
+# .environment.sv.un~     driver.sv         tb_agent_check.sv  
+# .generator.sv.un~       driver.sv~        tb_drv_check.sv    
+# .i2c_coverage.sv.un~    environment.sv    tb_drv_check.sv~   
+# .interface.sv.un~       environment.sv~   tb_env_check.sv    
+# .monitor.sv.un~         generator.sv      tb_gen_check.sv    
+# .run.do.un~             generator.sv~     tb_gen_check.sv~   
+# .scoreboard.sv.un~      i2c_coverage.sv   tb_mon_check.sv    
+# .tb_agent_check.sv.un~  i2c_coverage.sv~  tb_scb_check.sv    
+# .tb_drv_check.sv.un~    interface.sv      tb_scb_check.sv~   
+# .tb_env_check.sv.un~    interface.sv~     tb_tr_check.sv     
+# .tb_gen_check.sv.un~    monitor.sv        tb_tr_check.sv~    
+# .tb_mon_check.sv.un~    monitor.sv~       transaction.sv     
+# .tb_scb_check.sv.un~    run.do            vsim.wlf           
+# .tb_tr_check.sv.un~     run.do~           work               
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:48:51 on Feb 25,2026
+# vlog -reportprogress 300 -sv tb_env_check.sv 
+# -- Compiling interface i2c_if
+# -- Compiling package tb_env_check_sv_unit
+# -- Compiling module tb_env_check
+# 
+# Top level modules:
+# 	tb_env_check
+# End time: 15:48:51 on Feb 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -coverage work.tb_env_check 
+# Start time: 15:48:51 on Feb 25,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-133) Unable to remove directory "C:/Users/Windows 10 Pro/OneDrive/Desktop/checKblock/work/@_opt".
+# Loading sv_std.std
+# Loading work.tb_env_check_sv_unit(fast)
+# Loading work.tb_env_check(fast)
+# Loading work.i2c_if(fast)
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+# .main_pane.wave.interior.cs.body.pw.wf
+# ** Warning: (vsim-3881) i2c_coverage.sv(35): Sign-and-Width conversion applied in bin 'hi_regs' for Coverpoint 'cp_reg'. Value '128' changed to '127 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_env_check
+# ** Warning: (vsim-3881) i2c_coverage.sv(35): Sign-and-Width conversion applied in bin 'hi_regs' for Coverpoint 'cp_reg'. Value '255' changed to '127 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_env_check
+# ** Warning: (vsim-8475) The invalid value range [128 : 255] is found in bin 'hi_regs' of Coverpoint 'cp_reg'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /tb_env_check/#INITIAL#56 File: i2c_coverage.sv Line: 35
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'hi_regs' in Coverpoint 'cp_reg' of Covergroup instance '\/tb_env_check_sv_unit::i2c_coverage::cg_i2c ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_env_check
+# ** Warning: (vsim-8474) A higher value '255' is found in bin 'ones' of Coverpoint 'cp_first'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /tb_env_check/#INITIAL#56 File: i2c_coverage.sv Line: 50
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'ones' in Coverpoint 'cp_first' of Covergroup instance '\/tb_env_check_sv_unit::i2c_coverage::cg_i2c ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_env_check
+# ** Warning: (vsim-8474) A higher value '170' is found in bin 'aa' of Coverpoint 'cp_first'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /tb_env_check/#INITIAL#56 File: i2c_coverage.sv Line: 51
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'aa' in Coverpoint 'cp_first' of Covergroup instance '\/tb_env_check_sv_unit::i2c_coverage::cg_i2c ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_env_check
+# GEN: addr=50 reg=20 data='{50, 191}
+# DRV: No ACK on address
+# DRV: No ACK on reg_addr
+# DRV: No ACK on data idx 0
+# DRV: No ACK on data idx 1
+# COV: after 1 transactions, coverage = 32.41%
+# ** Note: $finish    : tb_env_check.sv(65)
+#    Time: 2 us  Iteration: 0  Instance: /tb_env_check
+# 1
+# Break at tb_env_check.sv line 65
+# COVERGROUP COVERAGE:
+# -----------------------------------------------------------------------------------------------
+# Covergroup                                             Metric       Goal    Status               
+#                                                                                               
+# -----------------------------------------------------------------------------------------------
+#  TYPE /tb_env_check_sv_unit/i2c_coverage/cg_i2c        32.40%        100    Uncovered            
+#     covered/total bins:                                     6         54                      
+#     missing/total bins:                                    48         54                      
+#     % Hit:                                             11.11%        100                      
+#     Coverpoint cg_i2c::cp_addr                        100.00%        100    Covered              
+#         covered/total bins:                                 1          1                      
+#         missing/total bins:                                 0          1                      
+#         % Hit:                                        100.00%        100                      
+#         bin good_addr                                       1          1    Covered              
+#         default bin other_addr                              0               ZERO                 
+#     Coverpoint cg_i2c::cp_rw                           50.00%        100    Uncovered            
+#         covered/total bins:                                 1          2                      
+#         missing/total bins:                                 1          2                      
+#         % Hit:                                         50.00%        100                      
+#         bin write                                           1          1    Covered              
+#         bin read                                            0          1    ZERO                 
+#     Coverpoint cg_i2c::cp_addr_ack                     50.00%        100    Uncovered            
+#         covered/total bins:                                 1          2                      
+#         missing/total bins:                                 1          2                      
+#         % Hit:                                         50.00%        100                      
+#         bin ACK                                             0          1    ZERO                 
+#         bin NACK                                            1          1    Covered              
+#     Coverpoint cg_i2c::cp_reg_ack                      50.00%        100    Uncovered            
+#         covered/total bins:                                 1          2                      
+#         missing/total bins:                                 1          2                      
+#         % Hit:                                         50.00%        100                      
+#         bin ACK                                             0          1    ZERO                 
+#         bin NACK                                            1          1    Covered              
+#     Coverpoint cg_i2c::cp_reg                           0.00%        100    ZERO                 
+#         covered/total bins:                                 0          5                      
+#         missing/total bins:                                 5          5                      
+#         % Hit:                                          0.00%        100                      
+#         bin dev_id                                          0          1    ZERO                 
+#         bin version                                         0          1    ZERO                 
+#         bin cfg_20                                          0          1    ZERO                 
+#         bin low_regs                                        0          1    ZERO                 
+#         bin mid_regs                                        0          1    ZERO                 
+#     Coverpoint cg_i2c::cp_wlen                         16.66%        100    Uncovered            
+#         covered/total bins:                                 1          6                      
+#         missing/total bins:                                 5          6                      
+#         % Hit:                                         16.66%        100                      
+#         illegal_bin len0                                    0               ZERO                 
+#         bin len1                                            0          1    ZERO                 
+#         bin len2                                            1          1    Covered              
+#         bin len3_4                                          0          1    ZERO                 
+#         bin len5_8                                          0          1    ZERO                 
+#         bin len9_16                                         0          1    ZERO                 
+#         bin len17_plus                                      0          1    ZERO                 
+#     Coverpoint cg_i2c::cp_first                         0.00%        100    ZERO                 
+#         covered/total bins:                                 0          2                      
+#         missing/total bins:                                 2          2                      
+#         % Hit:                                          0.00%        100                      
+#         bin zero                                            0          1    ZERO                 
+#         bin fifty5                                          0          1    ZERO                 
+#         default bin other                                   1               Occurred             
+#     Cross cg_i2c::x_rw_ack                             25.00%        100    Uncovered            
+#         covered/total bins:                                 1          4                      
+#         missing/total bins:                                 3          4                      
+#         % Hit:                                         25.00%        100                      
+#         bin <write,NACK>                                    1          1    Covered              
+#         bin <write,ACK>                                     0          1    ZERO                 
+#         bin <read,ACK>                                      0          1    ZERO                 
+#         bin <read,NACK>                                     0          1    ZERO                 
+#     Cross cg_i2c::x_reg_len                             0.00%        100    ZERO                 
+#         covered/total bins:                                 0         30                      
+#         missing/total bins:                                30         30                      
+#         % Hit:                                          0.00%        100                      
+#         bin <dev_id,len1>                                   0          1    ZERO                 
+#         bin <version,len1>                                  0          1    ZERO                 
+#         bin <cfg_20,len1>                                   0          1    ZERO                 
+#         bin <low_regs,len1>                                 0          1    ZERO                 
+#         bin <mid_regs,len1>                                 0          1    ZERO                 
+#         bin <dev_id,len2>                                   0          1    ZERO                 
+#         bin <version,len2>                                  0          1    ZERO                 
+#         bin <cfg_20,len2>                                   0          1    ZERO                 
+#         bin <low_regs,len2>                                 0          1    ZERO                 
+#         bin <mid_regs,len2>                                 0          1    ZERO                 
+#         bin <dev_id,len3_4>                                 0          1    ZERO                 
+#         bin <version,len3_4>                                0          1    ZERO                 
+#         bin <cfg_20,len3_4>                                 0          1    ZERO                 
+#         bin <low_regs,len3_4>                               0          1    ZERO                 
+#         bin <mid_regs,len3_4>                               0          1    ZERO                 
+#         bin <dev_id,len5_8>                                 0          1    ZERO                 
+#         bin <version,len5_8>                                0          1    ZERO                 
+#         bin <cfg_20,len5_8>                                 0          1    ZERO                 
+#         bin <low_regs,len5_8>                               0          1    ZERO                 
+#         bin <mid_regs,len5_8>                               0          1    ZERO                 
+#         bin <dev_id,len9_16>                                0          1    ZERO                 
+#         bin <version,len9_16>                               0          1    ZERO                 
+#         bin <cfg_20,len9_16>                                0          1    ZERO                 
+#         bin <low_regs,len9_16>                              0          1    ZERO                 
+#         bin <mid_regs,len9_16>                              0          1    ZERO                 
+#         bin <dev_id,len17_plus>                             0          1    ZERO                 
+#         bin <version,len17_plus>                            0          1    ZERO                 
+#         bin <cfg_20,len17_plus>                             0          1    ZERO                 
+#         bin <low_regs,len17_plus>                           0          1    ZERO                 
+#         bin <mid_regs,len17_plus>                           0          1    ZERO                 
+#  Covergroup instance \/tb_env_check_sv_unit::i2c_coverage::cg_i2c  
+#                                                        32.40%        100    Uncovered            
+#     covered/total bins:                                     6         54                      
+#     missing/total bins:                                    48         54                      
+#     % Hit:                                             11.11%        100                      
+#     Coverpoint cp_addr                                100.00%        100    Covered              
+#         covered/total bins:                                 1          1                      
+#         missing/total bins:                                 0          1                      
+#         % Hit:                                        100.00%        100                      
+#         bin good_addr                                       1          1    Covered              
+#         default bin other_addr                              0               ZERO                 
+#     Coverpoint cp_rw                                   50.00%        100    Uncovered            
+#         covered/total bins:                                 1          2                      
+#         missing/total bins:                                 1          2                      
+#         % Hit:                                         50.00%        100                      
+#         bin write                                           1          1    Covered              
+#         bin read                                            0          1    ZERO                 
+#     Coverpoint cp_addr_ack                             50.00%        100    Uncovered            
+#         covered/total bins:                                 1          2                      
+#         missing/total bins:                                 1          2                      
+#         % Hit:                                         50.00%        100                      
+#         bin ACK                                             0          1    ZERO                 
+#         bin NACK                                            1          1    Covered              
+#     Coverpoint cp_reg_ack                              50.00%        100    Uncovered            
+#         covered/total bins:                                 1          2                      
+#         missing/total bins:                                 1          2                      
+#         % Hit:                                         50.00%        100                      
+#         bin ACK                                             0          1    ZERO                 
+#         bin NACK                                            1          1    Covered              
+#     Coverpoint cp_reg                                   0.00%        100    ZERO                 
+#         covered/total bins:                                 0          5                      
+#         missing/total bins:                                 5          5                      
+#         % Hit:                                          0.00%        100                      
+#         bin dev_id                                          0          1    ZERO                 
+#         bin version                                         0          1    ZERO                 
+#         bin cfg_20                                          0          1    ZERO                 
+#         bin low_regs                                        0          1    ZERO                 
+#         bin mid_regs                                        0          1    ZERO                 
+#     Coverpoint cp_wlen                                 16.66%        100    Uncovered            
+#         covered/total bins:                                 1          6                      
+#         missing/total bins:                                 5          6                      
+#         % Hit:                                         16.66%        100                      
+#         illegal_bin len0                                    0               ZERO                 
+#         bin len1                                            0          1    ZERO                 
+#         bin len2                                            1          1    Covered              
+#         bin len3_4                                          0          1    ZERO                 
+#         bin len5_8                                          0          1    ZERO                 
+#         bin len9_16                                         0          1    ZERO                 
+#         bin len17_plus                                      0          1    ZERO                 
+#     Coverpoint cp_first                                 0.00%        100    ZERO                 
+#         covered/total bins:                                 0          2                      
+#         missing/total bins:                                 2          2                      
+#         % Hit:                                          0.00%        100                      
+#         bin zero                                            0          1    ZERO                 
+#         bin fifty5                                          0          1    ZERO                 
+#         default bin other                                   1               Occurred             
+#     Cross x_rw_ack                                     25.00%        100    Uncovered            
+#         covered/total bins:                                 1          4                      
+#         missing/total bins:                                 3          4                      
+#         % Hit:                                         25.00%        100                      
+#         bin <write,NACK>                                    1          1    Covered              
+#         bin <write,ACK>                                     0          1    ZERO                 
+#         bin <read,ACK>                                      0          1    ZERO                 
+#         bin <read,NACK>                                     0          1    ZERO                 
+#     Cross x_reg_len                                     0.00%        100    ZERO                 
+#         covered/total bins:                                 0         30                      
+#         missing/total bins:                                30         30                      
+#         % Hit:                                          0.00%        100                      
+#         bin <dev_id,len1>                                   0          1    ZERO                 
+#         bin <version,len1>                                  0          1    ZERO                 
+#         bin <cfg_20,len1>                                   0          1    ZERO                 
+#         bin <low_regs,len1>                                 0          1    ZERO                 
+#         bin <mid_regs,len1>                                 0          1    ZERO                 
+#         bin <dev_id,len2>                                   0          1    ZERO                 
+#         bin <version,len2>                                  0          1    ZERO                 
+#         bin <cfg_20,len2>                                   0          1    ZERO                 
+#         bin <low_regs,len2>                                 0          1    ZERO                 
+#         bin <mid_regs,len2>                                 0          1    ZERO                 
+#         bin <dev_id,len3_4>                                 0          1    ZERO                 
+#         bin <version,len3_4>                                0          1    ZERO                 
+#         bin <cfg_20,len3_4>                                 0          1    ZERO                 
+#         bin <low_regs,len3_4>                               0          1    ZERO                 
+#         bin <mid_regs,len3_4>                               0          1    ZERO                 
+#         bin <dev_id,len5_8>                                 0          1    ZERO                 
+#         bin <version,len5_8>                                0          1    ZERO                 
+#         bin <cfg_20,len5_8>                                 0          1    ZERO                 
+#         bin <low_regs,len5_8>                               0          1    ZERO                 
+#         bin <mid_regs,len5_8>                               0          1    ZERO                 
+#         bin <dev_id,len9_16>                                0          1    ZERO                 
+#         bin <version,len9_16>                               0          1    ZERO                 
+#         bin <cfg_20,len9_16>                                0          1    ZERO                 
+#         bin <low_regs,len9_16>                              0          1    ZERO                 
+#         bin <mid_regs,len9_16>                              0          1    ZERO                 
+#         bin <dev_id,len17_plus>                             0          1    ZERO                 
+#         bin <version,len17_plus>                            0          1    ZERO                 
+#         bin <cfg_20,len17_plus>                             0          1    ZERO                 
+#         bin <low_regs,len17_plus>                           0          1    ZERO                 
+#         bin <mid_regs,len17_plus>                           0          1    ZERO                 
+# 
+# TOTAL COVERGROUP COVERAGE: 32.40%  COVERGROUP TYPES: 1
+# 
+quit -sim
+# End time: 15:57:35 on Feb 25,2026, Elapsed time: 0:08:44
+# Errors: 0, Warnings: 10
+ls
+# .agent.sv.un~           agent.sv          tb_agent_check.sv  
+# .driver.sv.un~          agent.sv~         tb_drv_check.sv    
+# .environment.sv.un~     driver.sv         tb_drv_check.sv~   
+# .generator.sv.un~       driver.sv~        tb_env_check.sv    
+# .i2c_coverage.sv.un~    environment.sv    tb_gen_check.sv    
+# .interface.sv.un~       environment.sv~   tb_gen_check.sv~   
+# .monitor.sv.un~         generator.sv      tb_mon_check.sv    
+# .run.do.un~             generator.sv~     tb_scb_check.sv    
+# .scoreboard.sv.un~      i2c_coverage.sv   tb_scb_check.sv~   
+# .tb_agent_check.sv.un~  i2c_coverage.sv~  tb_top.sv          
+# .tb_drv_check.sv.un~    interface.sv      tb_top.sv~         
+# .tb_env_check.sv.un~    interface.sv~     tb_tr_check.sv     
+# .tb_gen_check.sv.un~    monitor.sv        tb_tr_check.sv~    
+# .tb_mon_check.sv.un~    monitor.sv~       test.sv            
+# .tb_scb_check.sv.un~    run.do            test.sv~           
+# .tb_top.sv.un~          run.do~           transaction.sv     
+# .tb_tr_check.sv.un~     scoreboard.sv     vsim.wlf           
+# .test.sv.un~            scoreboard.sv~    work               
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:57:46 on Feb 25,2026
+# vlog -reportprogress 300 -sv tb_top.sv 
+# -- Compiling interface i2c_if
+# -- Compiling package tb_top_sv_unit
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:57:47 on Feb 25,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -coverage work.tb_top 
+# Start time: 15:57:47 on Feb 25,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-133) Unable to remove directory "C:/Users/Windows 10 Pro/OneDrive/Desktop/checKblock/work/@_opt1".
+# Loading sv_std.std
+# Loading work.tb_top_sv_unit(fast)
+# Loading work.tb_top(fast)
+# Loading work.i2c_if(fast)
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+# .main_pane.wave.interior.cs.body.pw.wf
+# ** Warning: (vsim-3881) i2c_coverage.sv(35): Sign-and-Width conversion applied in bin 'hi_regs' for Coverpoint 'cp_reg'. Value '128' changed to '127 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_top
+# ** Warning: (vsim-3881) i2c_coverage.sv(35): Sign-and-Width conversion applied in bin 'hi_regs' for Coverpoint 'cp_reg'. Value '255' changed to '127 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_top
+# ** Warning: (vsim-8475) The invalid value range [128 : 255] is found in bin 'hi_regs' of Coverpoint 'cp_reg'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /tb_top/#INITIAL#59 File: i2c_coverage.sv Line: 35
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'hi_regs' in Coverpoint 'cp_reg' of Covergroup instance '\/tb_top_sv_unit::i2c_coverage::cg_i2c ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_top
+# ** Warning: (vsim-8474) A higher value '255' is found in bin 'ones' of Coverpoint 'cp_first'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /tb_top/#INITIAL#59 File: i2c_coverage.sv Line: 50
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'ones' in Coverpoint 'cp_first' of Covergroup instance '\/tb_top_sv_unit::i2c_coverage::cg_i2c ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_top
+# ** Warning: (vsim-8474) A higher value '170' is found in bin 'aa' of Coverpoint 'cp_first'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /tb_top/#INITIAL#59 File: i2c_coverage.sv Line: 51
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'aa' in Coverpoint 'cp_first' of Covergroup instance '\/tb_top_sv_unit::i2c_coverage::cg_i2c ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_top
+# GEN: addr=50 reg=20 data='{50, 191}
+# DRV: No ACK on address
+# DRV: No ACK on reg_addr
+# DRV: No ACK on data idx 0
+# DRV: No ACK on data idx 1
+# COV: after 1 transactions, coverage = 32.41%
+# ** Note: $finish    : tb_top.sv(68)
+#    Time: 2 us  Iteration: 0  Instance: /tb_top
+# 1
+# Break at tb_top.sv line 68
+# COVERGROUP COVERAGE:
+# -----------------------------------------------------------------------------------------------
+# Covergroup                                             Metric       Goal    Status               
+#                                                                                               
+# -----------------------------------------------------------------------------------------------
+#  TYPE /tb_top_sv_unit/i2c_coverage/cg_i2c              32.40%        100    Uncovered            
+#     covered/total bins:                                     6         54                      
+#     missing/total bins:                                    48         54                      
+#     % Hit:                                             11.11%        100                      
+#     Coverpoint cg_i2c::cp_addr                        100.00%        100    Covered              
+#         covered/total bins:                                 1          1                      
+#         missing/total bins:                                 0          1                      
+#         % Hit:                                        100.00%        100                      
+#         bin good_addr                                       1          1    Covered              
+#         default bin other_addr                              0               ZERO                 
+#     Coverpoint cg_i2c::cp_rw                           50.00%        100    Uncovered            
+#         covered/total bins:                                 1          2                      
+#         missing/total bins:                                 1          2                      
+#         % Hit:                                         50.00%        100                      
+#         bin write                                           1          1    Covered              
+#         bin read                                            0          1    ZERO                 
+#     Coverpoint cg_i2c::cp_addr_ack                     50.00%        100    Uncovered            
+#         covered/total bins:                                 1          2                      
+#         missing/total bins:                                 1          2                      
+#         % Hit:                                         50.00%        100                      
+#         bin ACK                                             0          1    ZERO                 
+#         bin NACK                                            1          1    Covered              
+#     Coverpoint cg_i2c::cp_reg_ack                      50.00%        100    Uncovered            
+#         covered/total bins:                                 1          2                      
+#         missing/total bins:                                 1          2                      
+#         % Hit:                                         50.00%        100                      
+#         bin ACK                                             0          1    ZERO                 
+#         bin NACK                                            1          1    Covered              
+#     Coverpoint cg_i2c::cp_reg                           0.00%        100    ZERO                 
+#         covered/total bins:                                 0          5                      
+#         missing/total bins:                                 5          5                      
+#         % Hit:                                          0.00%        100                      
+#         bin dev_id                                          0          1    ZERO                 
+#         bin version                                         0          1    ZERO                 
+#         bin cfg_20                                          0          1    ZERO                 
+#         bin low_regs                                        0          1    ZERO                 
+#         bin mid_regs                                        0          1    ZERO                 
+#     Coverpoint cg_i2c::cp_wlen                         16.66%        100    Uncovered            
+#         covered/total bins:                                 1          6                      
+#         missing/total bins:                                 5          6                      
+#         % Hit:                                         16.66%        100                      
+#         illegal_bin len0                                    0               ZERO                 
+#         bin len1                                            0          1    ZERO                 
+#         bin len2                                            1          1    Covered              
+#         bin len3_4                                          0          1    ZERO                 
+#         bin len5_8                                          0          1    ZERO                 
+#         bin len9_16                                         0          1    ZERO                 
+#         bin len17_plus                                      0          1    ZERO                 
+#     Coverpoint cg_i2c::cp_first                         0.00%        100    ZERO                 
+#         covered/total bins:                                 0          2                      
+#         missing/total bins:                                 2          2                      
+#         % Hit:                                          0.00%        100                      
+#         bin zero                                            0          1    ZERO                 
+#         bin fifty5                                          0          1    ZERO                 
+#         default bin other                                   1               Occurred             
+#     Cross cg_i2c::x_rw_ack                             25.00%        100    Uncovered            
+#         covered/total bins:                                 1          4                      
+#         missing/total bins:                                 3          4                      
+#         % Hit:                                         25.00%        100                      
+#         bin <write,NACK>                                    1          1    Covered              
+#         bin <write,ACK>                                     0          1    ZERO                 
+#         bin <read,ACK>                                      0          1    ZERO                 
+#         bin <read,NACK>                                     0          1    ZERO                 
+#     Cross cg_i2c::x_reg_len                             0.00%        100    ZERO                 
+#         covered/total bins:                                 0         30                      
+#         missing/total bins:                                30         30                      
+#         % Hit:                                          0.00%        100                      
+#         bin <dev_id,len1>                                   0          1    ZERO                 
+#         bin <version,len1>                                  0          1    ZERO                 
+#         bin <cfg_20,len1>                                   0          1    ZERO                 
+#         bin <low_regs,len1>                                 0          1    ZERO                 
+#         bin <mid_regs,len1>                                 0          1    ZERO                 
+#         bin <dev_id,len2>                                   0          1    ZERO                 
+#         bin <version,len2>                                  0          1    ZERO                 
+#         bin <cfg_20,len2>                                   0          1    ZERO                 
+#         bin <low_regs,len2>                                 0          1    ZERO                 
+#         bin <mid_regs,len2>                                 0          1    ZERO                 
+#         bin <dev_id,len3_4>                                 0          1    ZERO                 
+#         bin <version,len3_4>                                0          1    ZERO                 
+#         bin <cfg_20,len3_4>                                 0          1    ZERO                 
+#         bin <low_regs,len3_4>                               0          1    ZERO                 
+#         bin <mid_regs,len3_4>                               0          1    ZERO                 
+#         bin <dev_id,len5_8>                                 0          1    ZERO                 
+#         bin <version,len5_8>                                0          1    ZERO                 
+#         bin <cfg_20,len5_8>                                 0          1    ZERO                 
+#         bin <low_regs,len5_8>                               0          1    ZERO                 
+#         bin <mid_regs,len5_8>                               0          1    ZERO                 
+#         bin <dev_id,len9_16>                                0          1    ZERO                 
+#         bin <version,len9_16>                               0          1    ZERO                 
+#         bin <cfg_20,len9_16>                                0          1    ZERO                 
+#         bin <low_regs,len9_16>                              0          1    ZERO                 
+#         bin <mid_regs,len9_16>                              0          1    ZERO                 
+#         bin <dev_id,len17_plus>                             0          1    ZERO                 
+#         bin <version,len17_plus>                            0          1    ZERO                 
+#         bin <cfg_20,len17_plus>                             0          1    ZERO                 
+#         bin <low_regs,len17_plus>                           0          1    ZERO                 
+#         bin <mid_regs,len17_plus>                           0          1    ZERO                 
+#  Covergroup instance \/tb_top_sv_unit::i2c_coverage::cg_i2c  
+#                                                        32.40%        100    Uncovered            
+#     covered/total bins:                                     6         54                      
+#     missing/total bins:                                    48         54                      
+#     % Hit:                                             11.11%        100                      
+#     Coverpoint cp_addr                                100.00%        100    Covered              
+#         covered/total bins:                                 1          1                      
+#         missing/total bins:                                 0          1                      
+#         % Hit:                                        100.00%        100                      
+#         bin good_addr                                       1          1    Covered              
+#         default bin other_addr                              0               ZERO                 
+#     Coverpoint cp_rw                                   50.00%        100    Uncovered            
+#         covered/total bins:                                 1          2                      
+#         missing/total bins:                                 1          2                      
+#         % Hit:                                         50.00%        100                      
+#         bin write                                           1          1    Covered              
+#         bin read                                            0          1    ZERO                 
+#     Coverpoint cp_addr_ack                             50.00%        100    Uncovered            
+#         covered/total bins:                                 1          2                      
+#         missing/total bins:                                 1          2                      
+#         % Hit:                                         50.00%        100                      
+#         bin ACK                                             0          1    ZERO                 
+#         bin NACK                                            1          1    Covered              
+#     Coverpoint cp_reg_ack                              50.00%        100    Uncovered            
+#         covered/total bins:                                 1          2                      
+#         missing/total bins:                                 1          2                      
+#         % Hit:                                         50.00%        100                      
+#         bin ACK                                             0          1    ZERO                 
+#         bin NACK                                            1          1    Covered              
+#     Coverpoint cp_reg                                   0.00%        100    ZERO                 
+#         covered/total bins:                                 0          5                      
+#         missing/total bins:                                 5          5                      
+#         % Hit:                                          0.00%        100                      
+#         bin dev_id                                          0          1    ZERO                 
+#         bin version                                         0          1    ZERO                 
+#         bin cfg_20                                          0          1    ZERO                 
+#         bin low_regs                                        0          1    ZERO                 
+#         bin mid_regs                                        0          1    ZERO                 
+#     Coverpoint cp_wlen                                 16.66%        100    Uncovered            
+#         covered/total bins:                                 1          6                      
+#         missing/total bins:                                 5          6                      
+#         % Hit:                                         16.66%        100                      
+#         illegal_bin len0                                    0               ZERO                 
+#         bin len1                                            0          1    ZERO                 
+#         bin len2                                            1          1    Covered              
+#         bin len3_4                                          0          1    ZERO                 
+#         bin len5_8                                          0          1    ZERO                 
+#         bin len9_16                                         0          1    ZERO                 
+#         bin len17_plus                                      0          1    ZERO                 
+#     Coverpoint cp_first                                 0.00%        100    ZERO                 
+#         covered/total bins:                                 0          2                      
+#         missing/total bins:                                 2          2                      
+#         % Hit:                                          0.00%        100                      
+#         bin zero                                            0          1    ZERO                 
+#         bin fifty5                                          0          1    ZERO                 
+#         default bin other                                   1               Occurred             
+#     Cross x_rw_ack                                     25.00%        100    Uncovered            
+#         covered/total bins:                                 1          4                      
+#         missing/total bins:                                 3          4                      
+#         % Hit:                                         25.00%        100                      
+#         bin <write,NACK>                                    1          1    Covered              
+#         bin <write,ACK>                                     0          1    ZERO                 
+#         bin <read,ACK>                                      0          1    ZERO                 
+#         bin <read,NACK>                                     0          1    ZERO                 
+#     Cross x_reg_len                                     0.00%        100    ZERO                 
+#         covered/total bins:                                 0         30                      
+#         missing/total bins:                                30         30                      
+#         % Hit:                                          0.00%        100                      
+#         bin <dev_id,len1>                                   0          1    ZERO                 
+#         bin <version,len1>                                  0          1    ZERO                 
+#         bin <cfg_20,len1>                                   0          1    ZERO                 
+#         bin <low_regs,len1>                                 0          1    ZERO                 
+#         bin <mid_regs,len1>                                 0          1    ZERO                 
+#         bin <dev_id,len2>                                   0          1    ZERO                 
+#         bin <version,len2>                                  0          1    ZERO                 
+#         bin <cfg_20,len2>                                   0          1    ZERO                 
+#         bin <low_regs,len2>                                 0          1    ZERO                 
+#         bin <mid_regs,len2>                                 0          1    ZERO                 
+#         bin <dev_id,len3_4>                                 0          1    ZERO                 
+#         bin <version,len3_4>                                0          1    ZERO                 
+#         bin <cfg_20,len3_4>                                 0          1    ZERO                 
+#         bin <low_regs,len3_4>                               0          1    ZERO                 
+#         bin <mid_regs,len3_4>                               0          1    ZERO                 
+#         bin <dev_id,len5_8>                                 0          1    ZERO                 
+#         bin <version,len5_8>                                0          1    ZERO                 
+#         bin <cfg_20,len5_8>                                 0          1    ZERO                 
+#         bin <low_regs,len5_8>                               0          1    ZERO                 
+#         bin <mid_regs,len5_8>                               0          1    ZERO                 
+#         bin <dev_id,len9_16>                                0          1    ZERO                 
+#         bin <version,len9_16>                               0          1    ZERO                 
+#         bin <cfg_20,len9_16>                                0          1    ZERO                 
+#         bin <low_regs,len9_16>                              0          1    ZERO                 
+#         bin <mid_regs,len9_16>                              0          1    ZERO                 
+#         bin <dev_id,len17_plus>                             0          1    ZERO                 
+#         bin <version,len17_plus>                            0          1    ZERO                 
+#         bin <cfg_20,len17_plus>                             0          1    ZERO                 
+#         bin <low_regs,len17_plus>                           0          1    ZERO                 
+#         bin <mid_regs,len17_plus>                           0          1    ZERO                 
+# 
+# TOTAL COVERGROUP COVERAGE: 32.40%  COVERGROUP TYPES: 1
+# 
