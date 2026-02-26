@@ -7,8 +7,7 @@ SystemVerilog verification architecture.
 
 //System Verilog  verification style :
 
-Transaction → Generator → Driver → I2C Bus
-Monitor → Scoreboard → Comparison
+Transaction → Generator → Driver → DUT-->Monitor → Scoreboard → Comparison
 
 
 The verification environment includes:
